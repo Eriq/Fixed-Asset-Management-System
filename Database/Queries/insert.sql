@@ -1,0 +1,11 @@
+INSERT INTO assets (asset_image,qr_image,name,serial_number,barcode,model,brand,cost,purchase_date,vendor,asset_desc,condition,asset_status,class,location,department,custodian) VALUES
+('/home/eriq/Documents/Projects/Java/Asset Management/Images/HP PRO 3340 MT.jpg','/home/eriq/Documents/Projects/Java/Asset Management/Images/QRCodes/HP PRO 3340 MTHP-5551000.30.png','HP PRO 3340 MT', 'HP-5551000.30', '55513', 'HP PRO 3340 MT', 'HP', 43000, '2018-01-28', 'Digital Solutions', 'Black HP desktop computer', 'GOOD', 1, 'COMPUTER', 'SALES', 'SALES', 'JOHN'),
+('/home/eriq/Documents/Projects/Java/Asset Management/Images/ACCOUNTING DESK.jpg','/home/eriq/Documents/Projects/Java/Asset Management/Images/QRCodes/ACCOUNTING DESKAC-1003.png','ACCOUNTING DESK', 'AC-1003', '1003', 'ACCOUNTING DESK', 'OLYMPIC', 30000, '2017-07-15', 'IKEA FURNITURE', 'Brown Desk with 2 drawers on either side', 'GOOD', 1, 'FURNITURE', 'ACCOUNTING', 'ACCOUNTING', 'JANE'),
+('/home/eriq/Documents/Projects/Java/Asset Management/Images/TOYOTA FIELDER.jpg','/home/eriq/Documents/Projects/Java/Asset Management/Images/QRCodes/TOYOTA FIELDERTF-50001011.10.png','TOYOTA FIELDER', 'TF-50001011.10', '501110', 'FIELDER', 'TOYOTA', 1200000, '2017-10-23', 'Motor Trends Limited', 'Black toyota fielder', 'GOOD', 1, 'VEHICLE', 'MARKETING', 'MARKETING', 'LOUIS'),
+('/home/eriq/Documents/Projects/Java/Asset Management/Images/DELL INSPIRON 13.jpg','/home/eriq/Documents/Projects/Java/Asset Management/Images/QRCodes/DELL INSPIRON 13DI-521000.10.png','DELL INSPIRON 13', 'DI-521000.10', '52101', 'DELL INSPIRON 13R', 'DELL', 50000, '2018-10-28', 'Digital Solutions', 'Blue Laptop', 'GOOD', 1, 'COMPUTER', 'MANAGEMENT', 'MANAGEMENT', 'IT MANAGER');
+
+INSERT INTO components (asset_id, component_name, component_serial, condition, component_description) VALUES
+(1, 'MONITOR', 'HP-5551000.31', 'GOOD', 'Black monitor'),
+(1, 'MOUSE', 'HP-5551000.32', 'GOOD', 'White optical mouse'),
+(1, 'KEYBOARD', 'HP-5551000.33', 'GOOD', 'black wireless logitec keyboard'),
+(1, 'CPU', 'HP-5551000.34', 'GOOD', 'Black core i5 system unit');
